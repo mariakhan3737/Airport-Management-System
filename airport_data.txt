@@ -1,0 +1,49 @@
+### AIRPORT DATA FILE ###
+
+[AIRPORT]
+Name:Karachi International
+Location:Karachi, Pakistan
+Runways:4
+
+[EMPLOYEES]
+Count:1
+EMPLOYEE_START
+Name:ali
+ID:100
+Email:xx
+Phone:xx
+EmployeeID:100
+Salary:100
+Position:xx
+EMPLOYEE_END
+
+[CREW_TEAMS]
+Count:1
+CREW_START
+TeamID:ct1
+TeamName:alpha
+MemberCount:1
+Members:100
+CREW_END
+
+[FLIGHTS]
+Count:1
+FLIGHT_START
+FlightID:123
+Origin:LHR
+Destination:KHI
+Aircraft:boeing
+Status:Scheduled
+CrewTeamID:NONE
+PassengerCount:1
+PASSENGER_START
+Name:hasan
+ID:
+Email:xx
+Phone:xx
+Passport:x7235
+Nationality:xx
+PASSENGER_END
+FLIGHT_END
+
+END OF DATA
